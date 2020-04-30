@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html>
+<title>W3.CSS Template</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Raleway">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<head>
+  <!--cart js-->
+  <script src="cart.js" async></script>
+  <!--cartcss-->
+  <link rel="stylesheet" href="cart.css" />
+</head>
+<style>
+body,h1,h2,h3,h4,h5,h6 {font-family: "Raleway", sans-serif}
+
+body, html {
+  height: 100%;
+  line-height: 1.8;
+}
+
+/* Full height image header */
+.bgimg-1 {
+  background-position: center;
+  background-size: cover;
+  background-image: url("image/bg1.jpg");
+  min-height: 100%;
+}
+
+
+</style>
+<body>
+  
+<!-- Navbar (sit on top) -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card" id="myNavbar">
+    <a href="#home" class="w3-bar-item w3-button w3-wide">SHOP</a>
+    <!-- Right-sided navbar links -->
+    
+    <div class="w3-right w3-hide-small">
+      
+      <a href="index.html" class="w3-bar-item w3-button"></i><i class="fa fa-photo w3-margin-right"></i>Template Products</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-th"></i> PRODUCT</a>
+      <a href="cart.html" class="w3-bar-item w3-button"><i class="fa fa-usd"></i> CART</a>
+      <a href="index.html" class="w3-bar-item w3-button"><i class="fa fa-envelope"></i> CONTACT</a>
+    </div>
+    <!-- Hide right-floated links on small screens and replace them with a menu icon -->
+
+    <a href="javascript:void(0)" class="w3-bar-item w3-button w3-right w3-hide-large w3-hide-medium" onclick="w3_open()">
+      <i class="fa fa-bars"></i>
+    </a>
+  </div>
+</div>
+<div class="shopping-cart">
+    <!-- Title -->
+    <div class="title">
+      Shopping Cart
+    </div>
+   
+    <!-- Product #1 -->
+    <div class="item">
+      <div class="buttons">
+        <span class="delete-btn"></span>
+        <span class="like-btn"></span>
+      </div>
+   
+      <div class="image">
+        <img src="clock2.jpg" alt="" />
+      </div>
+   
+      <div class="description">
+        <span>นาฬิกาดิจิตอล</span>
+        <span></span>
+        <span></span>
+      </div>
+   
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">490฿</div>
+    </div>
+   
+    <!-- Product #2 -->
+    <div class="item">
+      <div class="buttons">
+        <span class="delete-btn"></span>
+        <span class="like-btn"></span>
+      </div>
+   
+      <div class="image">
+        <img src="item-2.png" alt=""/>
+      </div>
+   
+      <div class="description">
+        <span>นาฬิกา LED</span>
+        <span></span>
+        <span></span>
+      </div>
+   
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">400฿</div>
+    </div>
+   
+    <!-- Product #3 -->
+    <div class="item">
+      <div class="buttons">
+        <span class="delete-btn"></span>
+        <span class="like-btn"></span>
+      </div>
+   
+      <div class="image">
+        <img src="item-3.png" alt="" />
+      </div>
+   
+      <div class="description">
+        <span>โคมไฟสายรุ้งแบบตั้งโต๊ะ</span>
+        <span></span>
+        <span></span>
+      </div>
+   
+      <div class="quantity">
+        <button class="plus-btn" type="button" name="button">
+          <img src="plus.svg" alt="" />
+        </button>
+        <input type="text" name="name" value="1">
+        <button class="minus-btn" type="button" name="button">
+          <img src="minus.svg" alt="" />
+        </button>
+      </div>
+   
+      <div class="total-price">450฿</div>
+    </div>
+  </div>
+</body>
